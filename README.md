@@ -11,11 +11,11 @@ List of changes:
 * Checkboxes to enable/disable properties on left
 * Lighter grey for the name of css file in a properties block
 * Grey background for read-only properties or inherited properties from other files
-* Only show inherited properties from other files when moving mouse over the title sidebar
-* Highlight with yellow background some "important" properties: float, position, margin, padding and width
+* Only show inherited properties from other files when moving mouse over the title bar
+* Highlighted with yellow background some "important" properties: float, position, margin, padding and width
 * Changed value color
-* Hide browser prefixes except -webkit
-* Highlight with italic properties with -webkit prefix
+* Hidden browser prefixes except -webkit
+* Highlighted with italic properties with -webkit prefix
 * Removed grey line between block of properties
 
 ##Instructions to use these styles
@@ -24,8 +24,8 @@ List of changes:
 
 Copy the styles here:
 
-1. **Chrome:** ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css 
-2. **Chrome Canary:** ~/Library/Application\ Support/Google/Chrome\ Canary/Default/User\ StyleSheets/Custom.css
+* **Chrome:** ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css 
+* **Chrome Canary:** ~/Library/Application\ Support/Google/Chrome\ Canary/Default/User\ StyleSheets/Custom.css
 
 ###Windows
 

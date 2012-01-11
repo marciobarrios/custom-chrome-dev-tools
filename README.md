@@ -1,6 +1,6 @@
 #Customize styles for chrome dev tools
 
-In order to show a cleaner styles panel I've modified some styles in a very inception-esque exercise.
+In order to show a cleaner styles panel I've modified some styles in a very inception-esque exercise (inspecting the inspector).
 
 In this image you can see the differences, on the left the default style, on the right my custom styles panel.
 
@@ -12,10 +12,11 @@ List of changes:
 * Lighter grey for the name of css file in a properties block
 * Grey background for read-only properties or inherited properties from other files
 * Only show inherited properties from other files when moving mouse over the title bar
-* Highlighted with yellow background some "important" properties: float, position, margin, padding and width
+* Highlighted with yellow background some "important" properties: float, display, position, margin, padding and width
 * Changed value color
-* Hidden browser prefixes except -webkit
 * Highlighted with italic properties with -webkit prefix
+* Hidden browser prefixes except -webkit
+* Hidden all prefixes for *border-radius* and *box-shadow*
 * Removed grey line between block of properties
 
 ##Instructions to use these styles

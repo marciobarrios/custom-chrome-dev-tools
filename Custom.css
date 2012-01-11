@@ -38,12 +38,12 @@
 .styles-section:not(.read-only) .properties li[title*=margin]:not(.overloaded) > .webkit-css-property,
 .styles-section:not(.read-only) .properties li[title*="padding:"]:not(.overloaded) > .webkit-css-property, /* "padding:" to to avoid confusion with -webkit-background-origin: padding; */
 .styles-section:not(.read-only) .properties li[title*=width]:not(.overloaded) > .webkit-css-property {
-	background: #ffd !important;
+	background: #ffd;
 }
 
 /* Highlight (bold style) properties with -webkit prefix */
 .styles-section .properties li[title*=webkit] > .webkit-css-property { 
-	font-style: italic !important; 
+	font-style: italic; 
 }
 
 /* Hide all prefixes of border-radius and box-shadow. 

@@ -1,6 +1,4 @@
-/**********************************************/
-/* Better checkboxes position 
-/**********************************************/
+/* Better checkboxes position */
 .styles-section:hover .properties .enabled-button {
     visibility: visible !important;
 }
@@ -16,13 +14,12 @@
 	visibility: hidden !important;
 }
 
-/**********************************************/
-/* Better styles panel
-/**********************************************/
+/* Lighter grey for the name of css file in a properties block */
 .styles-section .header .subtitle a { 
 	color: #999 !important;
 }
 
+/* Grey background for read-only properties or inherited properties from other files */
 .styles-section.show-inherited,
 .styles-section.read-only {
 	background-color: #f0f0f0 !important;
@@ -71,7 +68,3 @@ bad written properties also will be hidden */
 .styles-section:not(.first-styles-section) { 
 	border: none !important; 
 }
-
-/* inherited properties in a rule (opacity: .5 by default)  */
-.styles-section .properties .implicit, 
-.styles-section .properties .inherited {}

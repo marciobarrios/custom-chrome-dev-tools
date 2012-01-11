@@ -2,7 +2,7 @@
 
 In order to show a cleaner styles panel I've modified some styles in a very inception-esque exercise.
 
-In this image you can see the differences, on the leftthe default style, on the right my custom styles panel.
+In this image you can see the differences, on the left the default style, on the right my custom styles panel.
 
 ![custom chrome dev tools](http://dl.dropbox.com/u/1223708/custom-chrome-dev-tools.png)
 
@@ -11,10 +11,10 @@ List of changes:
 * Checkboxes to enable/disable properties on left
 * Lighter grey for the name of css file in a properties block
 * Grey background for read-only properties or inherited properties from other files
-* Only show inherited properties from other files when hover the title sidebar
+* Only show inherited properties from other files when moving mouse over the title sidebar
 * Highlight with yellow background some "important" properties: float, position, margin, padding and width
-* Changed color of values
-* Highlight with bold style properties with -webkit prefix
+* Changed value color
+* Highlight with bold properties with -webkit prefix
 * Removed grey line between block of properties
 
 ##Instructions to use these styles

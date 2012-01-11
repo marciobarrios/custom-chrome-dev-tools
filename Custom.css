@@ -41,6 +41,11 @@
 	display: block !important;
 }
 
+/* opacity .5 to overloaded properties */
+.styles-section li.overloaded {
+	opacity: .5;
+}
+
 /* Highlight (yellow background) some important properties: float, display, position, margin, padding, width */
 .styles-section:not(.read-only) .properties li[title*=float]:not(.overloaded) > .webkit-css-property,
 .styles-section:not(.read-only) .properties li[title*=display]:not(.overloaded) > .webkit-css-property,

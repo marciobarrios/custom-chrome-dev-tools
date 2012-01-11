@@ -14,6 +14,7 @@ List of changes:
 * Only show inherited properties from other files when moving mouse over the title sidebar
 * Highlight with yellow background some "important" properties: float, position, margin, padding and width
 * Changed value color
+* Hide browser prefixes except -webkit
 * Highlight with bold properties with -webkit prefix
 * Removed grey line between block of properties
 

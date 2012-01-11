@@ -2,6 +2,10 @@
 
 In order to show a cleaner styles panel I've modified some styles in a very inception-esque exercise.
 
+In this image you can see the differences, on the leftthe default style, on the right my custom styles panel.
+
+![custom chrome dev tools](http://dl.dropbox.com/u/1223708/custom-chrome-dev-tools.png)
+
 List of changes:
 
 * Checkboxes to enable/disable properties on left

@@ -1,0 +1,77 @@
+/**********************************************/
+/* Better checkboxes position 
+/**********************************************/
+.styles-section:hover .properties .enabled-button {
+    visibility: visible !important;
+}
+
+.styles-section .properties li.disabled .enabled-button {
+    visibility: visible !important;
+}
+
+.styles-section .properties .enabled-button {
+	margin: 0 4px 0 0 !important;
+	display: block !important;
+	float: left !important;
+	visibility: hidden !important;
+}
+
+/**********************************************/
+/* Better styles panel
+/**********************************************/
+.styles-section .header .subtitle a { 
+	color: #999 !important;
+}
+
+.styles-section.show-inherited,
+.styles-section.read-only {
+	background-color: #f0f0f0 !important;
+}
+
+.styles-section.show-inherited {
+	display: none;
+}
+
+/* Only show inherited code from other elements when hovering title sidebar */
+.sidebar-separator { 
+	cursor: pointer; 
+}
+.node-link:hover { 
+	color: #000; 
+}
+.sidebar-separator:hover + .show-inherited,
+.show-inherited:hover {
+	display: block !important;
+}
+
+/* Highlight (yellow background) some important properties: float, position, margin, padding, width */
+.styles-section:not(.read-only) .properties li[title*=float]:not(.overloaded) > .webkit-css-property,
+.styles-section:not(.read-only) .properties li[title*=position]:not(.overloaded) > .webkit-css-property,
+.styles-section:not(.read-only) .properties li[title*=margin]:not(.overloaded) > .webkit-css-property,
+.styles-section:not(.read-only) .properties li[title*="padding:"]:not(.overloaded) > .webkit-css-property, /* "padding:" to to avoid confusion with -webkit-background-origin: padding; */
+.styles-section:not(.read-only) .properties li[title*=width]:not(.overloaded) > .webkit-css-property {
+	background: #ffd !important;
+}
+
+/* Highlight (bold style) properties with -webkit prefix */
+.styles-section .properties li[title*=webkit] > .webkit-css-property { 
+	font-style: italic !important; 
+}
+
+/* Changed value color */
+.styles-section .properties li .value { color: #268790; }
+
+/* Hide other browsers prefix, but be careful,
+bad written properties also will be hidden */
+.not-parsed-ok { 
+	display: none;
+}
+
+/* border between rules */
+.styles-section:not(.first-styles-section) { 
+	border: none !important; 
+}
+
+/* inherited properties in a rule (opacity: .5 by default)  */
+.styles-section .properties .implicit, 
+.styles-section .properties .inherited {}

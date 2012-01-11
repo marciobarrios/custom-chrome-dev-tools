@@ -49,7 +49,7 @@
 /* Hide all prefixes of border-radius and box-shadow. 
 Note: prefix-free property must be after prefix ones */
 .styles-section .properties li[title^=-webkit-border-radius],
-.styles-section .properties li[title^=-webkit-box-shadow] { display: none !important; }
+.styles-section .properties li[title^=-webkit-box-shadow] { display: none; }
 
 /* Changed value color */
 .styles-section .properties li .value { color: #268790; }

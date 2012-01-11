@@ -15,7 +15,7 @@ List of changes:
 * Highlight with yellow background some "important" properties: float, position, margin, padding and width
 * Changed value color
 * Hide browser prefixes except -webkit
-* Highlight with bold properties with -webkit prefix
+* Highlight with italic properties with -webkit prefix
 * Removed grey line between block of properties
 
 ##Instructions to use these styles

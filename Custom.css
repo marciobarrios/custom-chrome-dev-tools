@@ -41,8 +41,9 @@
 	display: block !important;
 }
 
-/* Highlight (yellow background) some important properties: float, position, margin, padding, width */
+/* Highlight (yellow background) some important properties: float, display, position, margin, padding, width */
 .styles-section:not(.read-only) .properties li[title*=float]:not(.overloaded) > .webkit-css-property,
+.styles-section:not(.read-only) .properties li[title*=display]:not(.overloaded) > .webkit-css-property,
 .styles-section:not(.read-only) .properties li[title*=position]:not(.overloaded) > .webkit-css-property,
 .styles-section:not(.read-only) .properties li[title*=margin]:not(.overloaded) > .webkit-css-property,
 .styles-section:not(.read-only) .properties li[title*="padding:"]:not(.overloaded) > .webkit-css-property, /* "padding:" to to avoid confusion with -webkit-background-origin: padding; */

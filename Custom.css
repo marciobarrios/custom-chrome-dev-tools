@@ -1,11 +1,7 @@
 /* Better checkboxes position */
-.styles-section:hover .properties .enabled-button {
-    visibility: visible !important;
-}
+.styles-section:hover .properties .enabled-button { visibility: visible !important; }
 
-.styles-section .properties li.disabled .enabled-button {
-    visibility: visible !important;
-}
+.styles-section .properties li.disabled .enabled-button { visibility: visible !important; }
 
 .styles-section .properties .enabled-button {
 	margin: 0 4px 0 0 !important;
@@ -15,36 +11,25 @@
 }
 
 /* Lighter grey for the name of css file in a properties block */
-.styles-section .header .subtitle a { 
-	color: #999 !important;
-}
+.styles-section .header .subtitle a { color: #999 !important; }
 
 /* Grey background for read-only properties or inherited properties from other files */
 .styles-section.show-inherited,
 .styles-section.read-only {
 	background-color: #f0f0f0 !important;
 }
-
-.styles-section.show-inherited {
-	display: none;
-}
+.styles-section.show-inherited { display: none; }
 
 /* Only show inherited code from other elements when hovering title sidebar */
-.sidebar-separator { 
-	cursor: pointer; 
-}
-.node-link:hover { 
-	color: #000; 
-}
+.sidebar-separator { cursor: pointer; }
+.node-link:hover { color: #000; }
 .sidebar-separator:hover + .show-inherited,
 .show-inherited:hover {
 	display: block !important;
 }
 
 /* opacity .5 to overloaded properties */
-.styles-section li.overloaded {
-	opacity: .5;
-}
+.styles-section li.overloaded { opacity: .5; }
 
 /* Highlight (yellow background) some important properties: float, display, position, margin, padding, width */
 .styles-section:not(.read-only) .properties li[title*=float]:not(.overloaded) > .webkit-css-property,
@@ -61,16 +46,17 @@
 	font-style: italic !important; 
 }
 
+/* Hide all prefixes of border-radius and box-shadow. 
+Note: prefix-free property must be after prefix ones */
+.styles-section .properties li[title^=-webkit-border-radius],
+.styles-section .properties li[title^=-webkit-box-shadow] { display: none !important; }
+
 /* Changed value color */
 .styles-section .properties li .value { color: #268790; }
 
 /* Hide other browsers prefix, but be careful,
 bad written properties also will be hidden */
-.not-parsed-ok { 
-	display: none;
-}
+.not-parsed-ok { display: none; }
 
 /* border between rules */
-.styles-section:not(.first-styles-section) { 
-	border: none !important; 
-}
+.styles-section:not(.first-styles-section) { border: none !important; }

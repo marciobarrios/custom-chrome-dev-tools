@@ -4,7 +4,7 @@ In order to show a cleaner styles panel I've modified some styles in a very ince
 
 In this image you can see the differences, on the left the default style, on the right my custom styles panel.
 
-![custom chrome dev tools](http://dl.dropbox.com/u/1223708/custom-chrome-dev-tools.png)
+![custom chrome dev tools](https://github.com/hunab/custom-chrome-dev-tools/blob/master/custom-chrome-dev-tools.png)
 
 List of changes:
 
